@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <div class="formulario">
+        <header>
+            <h1>Cadastro</h1>
+        </header>
+        <form id="registro">
+        <div class="input-group">
+            <div class="input-registro">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="nome" alt="Nome completo" placeholder="Seu nome completo" autofocus />
+            </div>
+            <div class="input-registro">
+                <i class="fa-solid fa-at"></i>
+                <input type="email" name="email" alt="E-mail" placeholder="Seu email nome@exemplo.com" />
+            </div>
+            <div class="input-registro">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" name="telefone" placeholder="Seu telefone com DDD" />
+            </div>
+            <div class="input-registro">
+                <i class="fa-solid fa-id-card"></i>
+                <input type="text" name="cpf" placeholder="Informe seu CPF" />
+            </div>
+            <div class="input-registro">
+                <i class="fa-regular fa-address-card"></i>
+                <input type="text" name="endereco" placeholder="Informe seu endereço" />
+            </div>
+            <div class="input-registro">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="cep" placeholder="Informe seu CEP" />
+            </div>
+            <div class="btn">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+
+</body>
+</html>
